@@ -3,7 +3,9 @@ function receivesAFunction(callback) {
 }
 
 function returnsANamedFunction() {
-    function namedFunction()
+    function namedFunction() {
+        
+    }
     return namedFunction;
 }
 
